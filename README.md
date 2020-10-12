@@ -2,7 +2,7 @@
 A program, that works with Alternative File Streams
 
 How to use:
-You need to run the program, enter the function number and hit Enter.
+You need to run the stream.bat file, enter the function number and hit Enter.
 
 Description of functions:
 1. Create file/folder stream:
