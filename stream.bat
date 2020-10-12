@@ -16,7 +16,7 @@ If %inp%==4 goto find
 If %inp%==5 goto edit
 If %inp%==6 exit
 :create
-echo Enter file/folder of your file:
+echo Enter name of your file/folder:
 set /p name_file=
 echo Enter name of your stream:
 set /p name_stream=
@@ -35,7 +35,7 @@ echo Completed!
 pause
 goto menu
 :read
-echo Enter file/folder of your file:
+echo Enter name of your file/folder:
 set /p read_file=
 echo Enter name of your stream:
 set /p read_stream=
@@ -51,7 +51,7 @@ dir %stream_found% /R
 pause
 goto menu
 :edit
-echo Enter file/folder of your file:
+echo Enter name of your file/folder:
 set /p name_file=
 echo Enter name of your stream:
 set /p name_stream=
